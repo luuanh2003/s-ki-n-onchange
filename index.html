@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sự kiện onchange</title>
+</head>
+<body>
+<select name="" id="sukien" onchange="ok()">
+    <option value="1">Đỏ</option>
+    <option value="2">Vàng</option>
+    <option value="3">Xanh</option>
+    <option value="4">Trắng</option>
+</select>
+<script>
+    function ok() {
+      var x =  document.getElementById('sukien').value;
+        alert(x)
+    }
+</script>
+</body>
+</html>
